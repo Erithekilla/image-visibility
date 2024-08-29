@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.cnt{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro{
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+}
+
+#img{
+    visibility: visible;
+    margin-top: 50px;
+}
+
+.centro button{
+    font-size: 25px;
+    background-color: green;
+}
+
+
+
+
+

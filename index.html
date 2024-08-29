@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cnt">
+        <div class="centro">
+            <img src="kanek.jpg" id="img" width="300" height="300">
+            <br><br>
+            <button id="botao"><p id="p">Remover</p></button>
+        </div>
+    </section>
+    <script>
+        var btn = document.getElementById("botao")
+        var img = document.getElementById("img")
+        var p = document.getElementById("p")
+        btn.onclick = function(){
+            if (img.style.visibility == 'visible'){
+            img.style.visibility = 'hidden'
+            btn.style.backgroundColor = 'red'
+            p.textContent = "Aparecer"
+           }else{
+            img.style.visibility = 'visible'
+            btn.style.backgroundColor = 'green'
+            p.textContent = "Remover"
+           }
+            
+        }
+    </script>
+</body>
+</html>
